@@ -1,0 +1,608 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="author" content="Zineb, Sandrine, Mika" />
+    <meta
+      name="description"
+      content="Ali Vacance est un gite au pied de la mer mediterranee et saura rendre vos vacances inoubliables."
+    />
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Ali Vacance - Gite en bord de mer" />
+    <meta
+      property="og:description"
+      content="Evadez-vous dans un cadre naturel entre terre et mer. Calme, confort et horizon a perte de vue."
+    />
+    <meta property="og:image" content="./assets/img/Hero-baneer.webp" />
+    <meta property="og:url" content="https://ali-vacance.fr" />
+    <meta property="og:type" content="website" />
+    <meta property="og:locale" content="fr_FR" />
+    <meta property="og:site_name" content="Ali Vacance" />
+
+    <title>Ali vacance - Accueil</title>
+
+    <!-- JSON-LD -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LodgingBusiness",
+        "name": "Ali Vacance",
+        "description": "Gite au pied de la mer mediterranee",
+        "url": "https://ali-vacance.fr",
+        "image": "./assets/img/Hero-baneer.webp",
+        "address": {
+          "@type": "PostalAddress",
+          "addressCountry": "FR"
+        },
+        "sameAs": ["https://www.facebook.com/", "https://www.instagram.com/"]
+      }
+    </script>
+
+    <link
+      rel="preload"
+      href="FONTS/Manrope/static/Manrope-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link
+      rel="preload"
+      href="FONTS/Inter/static/Inter_18pt-Regular.woff2"
+      as="font"
+      type="font/woff2"
+      crossorigin
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-[#D2C6B5] flex flex-col min-h-screen overflow-x-hidden">
+    <!-- HEADER -->
+    <header
+      class="bg-[#0F776C] flex items-center justify-end text-white font-inter px-6 py-3"
+      role="banner"
+    >
+      <nav aria-label="Navigation principale">
+        <ul class="flex gap-4" role="list">
+          <li>
+            <a
+              href=""
+              class="block p-1 rounded-md outline-none transition-transform hover:scale-110 focus:scale-110 focus:ring-2 focus:ring-white"
+            >
+              Produits &amp; services
+            </a>
+          </li>
+          <li>
+            <a
+              href=""
+              class="block p-1 rounded-md outline-none transition-transform hover:scale-110 focus:scale-110 focus:ring-2 focus:ring-white"
+            >
+              Contact
+            </a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="flex flex-col flex-1" id="main-content">
+      <!-- Banniere -->
+      <section class="w-full h-[600]" aria-label="Banniere principale">
+        <img
+          src="./assets/img/Hero-baneer.webp"
+          alt="Vue panoramique du gite Ali Vacance au bord de la mer"
+          class="w-full h-full object-cover object-top"
+        />
+      </section>
+
+      <!-- Offres speciales -->
+      <section
+        class="px-4 sm:px-6 md:px-10 py-10 flex flex-col gap-8"
+        aria-labelledby="offres-titre"
+      >
+        <h2
+          id="offres-titre"
+          class="text-xl sm:text-2xl md:text-4xl font-bold text-[#0F1F3D] leading-tight"
+        >
+          Evadez-vous dans un cadre naturel entre terre et mer. Calme, confort
+          et horizon a perte de vue.
+        </h2>
+        <div>
+          <h3 class="text-base font-bold text-[#0F1F3D]">Offres speciales</h3>
+          <p class="text-sm mt-1">Nos coups de coeur et bonnes affaires</p>
+        </div>
+        <ul
+          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
+          role="list"
+        >
+          <li
+            class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+          >
+            <a
+              href=""
+              class="block w-full h-full relative group outline-none"
+              aria-label="Voyages de derniere minute"
+            >
+              <img
+                src="./assets/img/special-offers/Container-1.webp"
+                alt=""
+                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              />
+              <span
+                class="absolute bottom-3 left-3 text-white text-sm font-medium drop-shadow"
+                aria-hidden="true"
+                >Voyages de derniere minute</span
+              >
+            </a>
+          </li>
+          <li
+            class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+          >
+            <a
+              href=""
+              class="block w-full h-full relative group outline-none"
+              aria-label="Decouvrez les nouveautes"
+            >
+              <img
+                src="./assets/img/special-offers/Container-2.webp"
+                alt=""
+                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              />
+              <span
+                class="absolute bottom-3 left-3 text-white text-sm font-medium drop-shadow"
+                aria-hidden="true"
+                >Decouvrez les nouveautes</span
+              >
+            </a>
+          </li>
+          <li
+            class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+          >
+            <a
+              href=""
+              class="block w-full h-full relative group outline-none"
+              aria-label="Profitez des promotions"
+            >
+              <img
+                src="./assets/img/special-offers/Container-3.webp"
+                alt=""
+                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              />
+              <span
+                class="absolute bottom-3 left-3 text-white text-sm font-medium drop-shadow"
+                aria-hidden="true"
+                >Profitez des promotions</span
+              >
+            </a>
+          </li>
+          <li
+            class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+          >
+            <a
+              href=""
+              class="block w-full h-full relative group outline-none"
+              aria-label="Offre speciale"
+            >
+              <img
+                src="./assets/img/special-offers/Container.webp"
+                alt=""
+                class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              />
+            </a>
+          </li>
+        </ul>
+      </section>
+
+      <!-- Nos chambres -->
+      <section
+        class="px-4 sm:px-6 md:px-10 py-10 flex flex-col gap-12"
+        aria-labelledby="chambres-titre"
+      >
+        <h2
+          id="chambres-titre"
+          class="text-xl sm:text-2xl md:text-4xl font-bold text-[#0F1F3D]"
+        >
+          Nos chambres
+        </h2>
+
+        <!-- Chambre Azur -->
+        <article aria-labelledby="azur-titre" class="flex flex-col gap-4">
+          <h3 id="azur-titre" class="text-lg font-bold text-[#0F776C]">
+            Chambre Azur
+          </h3>
+          <p class="text-sm">
+            Un cocon lumineux aux tons bleu ciel, rappelant la mer Mediterranee.
+            Grande fenetre avec vue sur le jardin, decoration marine et ambiance
+            apaisante.
+          </p>
+          <ul
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
+            role="list"
+          >
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Azur photo 1"
+                ><img
+                  src="./assets/img/azur-room/Link.webp"
+                  alt="Chambre Azur - vue 1"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Azur photo 2"
+                ><img
+                  src="./assets/img/azur-room/Link-1.webp"
+                  alt="Chambre Azur - vue 2"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Azur photo 3"
+                ><img
+                  src="./assets/img/azur-room/Link-2.webp"
+                  alt="Chambre Azur - vue 3"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Azur photo 4"
+                ><img
+                  src="./assets/img/azur-room/Link-3.webp"
+                  alt="Chambre Azur - vue 4"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Azur photo 5"
+                ><img
+                  src="./assets/img/azur-room/A%20bicycle%20parked%20in%20front%20of%20an%20old%20blue%20wooden%20door%20surrounded%20by%20bricks..webp"
+                  alt="Chambre Azur - vue 5"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Azur photo 6"
+                ><img
+                  src="./assets/img/azur-room/Cover%20image_%20Ski%20holidays%202025-2026_%20experience%20the%20mountains%20differently%20with%20Cl%C3%A9vacances.webp"
+                  alt="Chambre Azur - vue 6"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Chambre Lavande -->
+        <article aria-labelledby="lavande-titre" class="flex flex-col gap-4">
+          <h3 id="lavande-titre" class="text-lg font-bold text-[#0F776C]">
+            Chambre Lavande
+          </h3>
+          <p class="text-sm">
+            Inspiree des champs de lavande de Provence, cette chambre offre une
+            atmosphere douce et parfumee, avec des touches de violet et de bois
+            clair.
+          </p>
+          <ul
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
+            role="list"
+          >
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Lavande photo 1"
+                ><img
+                  src="./assets/img/lavender-room/Link.webp"
+                  alt="Chambre Lavande - vue 1"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Lavande photo 2"
+                ><img
+                  src="./assets/img/lavender-room/Link-1.webp"
+                  alt="Chambre Lavande - vue 2"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Lavande photo 3"
+                ><img
+                  src="./assets/img/lavender-room/Link-2.webp"
+                  alt="Chambre Lavande - vue 3"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Lavande photo 4"
+                ><img
+                  src="./assets/img/lavender-room/Container.webp"
+                  alt="Chambre Lavande - vue 4"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Lavande photo 5"
+                ><img
+                  src="./assets/img/lavender-room/A%20bicycle%20parked%20in%20front%20of%20an%20old%20blue%20wooden%20door%20surrounded%20by%20bricks..webp"
+                  alt="Chambre Lavande - vue 5"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Lavande photo 6"
+                ><img
+                  src="./assets/img/lavender-room/Cover%20image_%20Ski%20holidays%202025-2026_%20experience%20the%20mountains%20differently%20with%20Cl%C3%A9vacances.webp"
+                  alt="Chambre Lavande - vue 6"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Chambre Mimosas -->
+        <article aria-labelledby="mimosas-titre" class="flex flex-col gap-4">
+          <h3 id="mimosas-titre" class="text-lg font-bold text-[#0F776C]">
+            Chambre Mimosas
+          </h3>
+          <p class="text-sm">
+            Une chambre ensoleillee aux couleurs jaune et or, evoquant les
+            celebres fleurs du sud. Parfaite pour un reveil plein de bonne
+            humeur.
+          </p>
+          <ul
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
+            role="list"
+          >
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Mimosas photo 1"
+                ><img
+                  src="./assets/img/mimosas-room/Link.webp"
+                  alt="Chambre Mimosas - vue 1"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Mimosas photo 2"
+                ><img
+                  src="./assets/img/mimosas-room/Link-1.webp"
+                  alt="Chambre Mimosas - vue 2"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Mimosas photo 3"
+                ><img
+                  src="./assets/img/mimosas-room/Link-2.webp"
+                  alt="Chambre Mimosas - vue 3"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Mimosas photo 4"
+                ><img
+                  src="./assets/img/mimosas-room/A%20bicycle%20parked%20in%20front%20of%20an%20old%20blue%20wooden%20door%20surrounded%20by%20bricks..webp"
+                  alt="Chambre Mimosas - vue 4"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Mimosas photo 5"
+                ><img
+                  src="./assets/img/mimosas-room/Cover%20image_%20Ski%20holidays%202025-2026_%20experience%20the%20mountains%20differently%20with%20Cl%C3%A9vacances.webp"
+                  alt="Chambre Mimosas - vue 5"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+          </ul>
+        </article>
+
+        <!-- Chambre Ecume -->
+        <article aria-labelledby="ecume-titre" class="flex flex-col gap-4">
+          <h3 id="ecume-titre" class="text-lg font-bold text-[#0F776C]">
+            Chambre Ecume
+          </h3>
+          <p class="text-sm">
+            Une chambre fraiche et lumineuse, aux nuances de blanc et de bleu,
+            inspiree par les vagues et l ecume de la Mediterranee.
+          </p>
+          <ul
+            class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4"
+            role="list"
+          >
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Ecume photo 1"
+                ><img
+                  src="./assets/img/ecume-room/Link.webp"
+                  alt="Chambre Ecume - vue 1"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Ecume photo 2"
+                ><img
+                  src="./assets/img/ecume-room/Link-1.webp"
+                  alt="Chambre Ecume - vue 2"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Ecume photo 3"
+                ><img
+                  src="./assets/img/ecume-room/Link-2.webp"
+                  alt="Chambre Ecume - vue 3"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Ecume photo 4"
+                ><img
+                  src="./assets/img/ecume-room/Link-3.webp"
+                  alt="Chambre Ecume - vue 4"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Ecume photo 5"
+                ><img
+                  src="./assets/img/ecume-room/A%20bicycle%20parked%20in%20front%20of%20an%20old%20blue%20wooden%20door%20surrounded%20by%20bricks..webp"
+                  alt="Chambre Ecume - vue 5"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+            <li
+              class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
+            >
+              <a
+                href=""
+                class="block w-full h-full group outline-none"
+                aria-label="Chambre Ecume photo 6"
+                ><img
+                  src="./assets/img/ecume-room/Cover%20image_%20Ski%20holidays%202025-2026_%20experience%20the%20mountains%20differently%20with%20Cl%C3%A9vacances.webp"
+                  alt="Chambre Ecume - vue 6"
+                  class="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110 group-focus:scale-110"
+              /></a>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+
+    <!-- FOOTER -->
+    <footer
+      class="bg-[#0F776C] flex items-center justify-end text-white font-inter px-6 py-3"
+      role="contentinfo"
+    >
+      <div class="flex gap-4">
+        <a
+          href="https://www.facebook.com/"
+          class="transition-transform hover:scale-110 focus:scale-110 focus:ring-2 focus:ring-white rounded outline-none"
+          aria-label="Suivez-nous sur Facebook"
+        >
+          <img
+            src="./assets/icons/facebook-icon.png"
+            alt=""
+            aria-hidden="true"
+          />
+        </a>
+        <a
+          href="https://www.instagram.com/"
+          class="transition-transform hover:scale-110 focus:scale-110 focus:ring-2 focus:ring-white rounded outline-none"
+          aria-label="Suivez-nous sur Instagram"
+        >
+          <img
+            src="./assets/icons/instgram-icon.png"
+            alt=""
+            aria-hidden="true"
+          />
+        </a>
+      </div>
+    </footer>
+  </body>
+</html>
