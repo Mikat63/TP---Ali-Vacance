@@ -1,3 +1,4 @@
+<!-- page faite par Zineb -->
 <!doctype html>
 <html lang="fr">
   <head>
@@ -22,373 +23,408 @@
 
   <body class="bg-[#D2C6B5] font-['Manrope'] antialiased">
     <!-- Navigation -->
-    <nav class="bg-[#0F776C] py-4 px-4 md:px-8">
-      <div class="flex md:justify-end overflow-x-auto">
-        <div class="flex items-center gap-4 md:gap-8 min-w-max">
-          <a
-            href="./index.html"
-            class="text-[13px] md:text-[14px] text-white font-semibold uppercase tracking-wider whitespace-nowrap"
-          >
-            Accueil
-          </a>
-          <a
-            href="#"
-            class="text-[13px] md:text-[14px] text-white font-semibold uppercase tracking-wider whitespace-nowrap"
-          >
-            Produits &amp; Services
-          </a>
-          <a
-            href="./contact.html"
-            class="text-[13px] md:text-[14px] text-[#0F776C] bg-[#95D3CD] px-4 md:px-6 py-1 font-bold uppercase tracking-wider border border-[#95D3CD] rounded-md whitespace-nowrap"
-          >
-            Contact
-          </a>
-        </div>
-      </div>
-    </nav>
 
     <!-- En-tête / Hero -->
-    <header class="relative mb-20">
-      <section class="w-full h-[550px]" aria-label="Banniere principale">
+    <header class="relative">
+      <nav class="bg-[#0F776C] py-4 px-4 md:px-8">
+        <div class="flex md:justify-end overflow-x-auto">
+          <div class="flex items-center gap-4 md:gap-8 min-w-max">
+            <a
+              href="./index.html"
+              class="text-[13px] md:text-[14px] text-white font-semibold uppercase tracking-wider whitespace-nowrap"
+            >
+              Accueil
+            </a>
+            <a
+              href="#"
+              class="text-[13px] md:text-[14px] text-white font-semibold uppercase tracking-wider whitespace-nowrap"
+            >
+              Produits &amp; Services
+            </a>
+            <a
+              href="./contact.html"
+              class="text-[13px] md:text-[14px] text-[#000000] bg-[#95D3CD] px-4 md:px-6 py-1 font-bold uppercase tracking-wider border border-[#95D3CD] rounded-md whitespace-nowrap"
+            >
+              Contact
+            </a>
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main-content" tabindex="-1" aria-label="Contenu principal">
+      <section class="w-full h-[550px]" aria-label="Bannière principale">
         <img
           src="./assets/img/Hero-baneer.webp"
           alt="Vue panoramique du gite Ali Vacance au bord de la mer"
           class="w-full h-full object-cover object-center"
         />
       </section>
-    </header>
 
-    <section class="bg-[#f8f5f0] py-16 px-6 md:py-24">
-      <div class="max-w-4xl mx-auto text-center">
-        <p
-          class="text-[#2d5a43] uppercase tracking-[0.2em] text-xs md:text-sm font-semibold mb-4"
+      <section
+        class="bg-[#f8f5f0] py-16 px-6 md:py-24"
+        aria-labelledby="activites-titre"
+      >
+        <div class="max-w-4xl mx-auto text-center">
+          <p
+            class="text-[#2d5a43] uppercase tracking-[0.2em] text-xs md:text-sm font-semibold mb-4"
+          >
+            Vivez pleinement
+          </p>
+
+          <h2
+            id="activites-titre"
+            class="text-[#2a2622] text-3xl md:text-5xl font-serif font-bold leading-tight mb-8"
+          >
+            Des activités pensées pour vous ressourcer
+          </h2>
+
+          <p
+            class="text-[#5a5652] text-base md:text-lg leading-relaxed max-w-3xl mx-auto"
+          >
+            Entre l'océan et la campagne, nos gîtes offrent un cadre privilégié
+            pour profiter d'activités variées. Que vous soyez en quête
+            d'aventure, de détente ou de moments chaleureux en famille, chaque
+            journée réserve son lot de découvertes.
+          </p>
+        </div>
+      </section>
+
+      <hr class="w-[50%] border-[#231b15] border-0 border-t-4 mx-auto" />
+
+      <!-- section "Balade a Poney"  -->
+      <section
+        class="bg-[#f8f5f0] py-12 px-6 md:py-20"
+        aria-labelledby="poney-titre"
+      >
+        <div
+          class="max-w-7xl mx-auto flex flex-col md:flex-row items-stretch gap-10 lg:gap-16"
         >
-          Vivez pleinement
-        </p>
+          <div class="w-full md:w-1/2">
+            <img
+              src="./assets/img/produits-services/Background.png"
+              alt="Balade a Poney"
+              class="w-full h-full object-cover rounded-[2rem] shadow-sm"
+            />
+          </div>
 
-        <h2
-          class="text-[#2a2622] text-3xl md:text-5xl font-serif font-bold leading-tight mb-8"
+          <div class="w-full md:w-1/2 flex flex-col justify-center">
+            <p
+              class="text-[#2d5a43] uppercase tracking-[0.25em] text-xs font-bold mb-4"
+            >
+              Decouverte
+            </p>
+
+            <div class="mb-8">
+              <h2
+                id="poney-titre"
+                class="text-[#2a2622] text-4xl md:text-5xl font-serif font-bold mb-3 leading-tight"
+              >
+                Balade à Poney
+              </h2>
+              <div class="h-[3px] w-20 bg-[#ce7d6a]"></div>
+            </div>
+
+            <p
+              class="text-[#5a5652] text-base md:text-lg leading-relaxed mb-10"
+            >
+              Partez a la decouverte des sentiers du littoral a dos de poney,
+              une experience douce et enchantee pour petits et grands. Nos
+              poneys, calmes et habitues aux promeneurs, vous guideront le long
+              des dunes et des chemins cotiers, offrant une perspective unique
+              sur les paesaggi marins.
+            </p>
+
+            <ul class="space-y-5">
+              <li class="flex items-start text-[#5a5652]">
+                <span
+                  class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
+                ></span>
+                <span class="text-sm md:text-base"
+                  >Accessible des 4 ans, accompagne par un moniteur</span
+                >
+              </li>
+              <li class="flex items-start text-[#5a5652]">
+                <span
+                  class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
+                ></span>
+                <span class="text-sm md:text-base"
+                  >Parcours de 30 min a 1h le long des sentiers cotiers</span
+                >
+              </li>
+              <li class="flex items-start text-[#5a5652]">
+                <span
+                  class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
+                ></span>
+                <span class="text-sm md:text-base"
+                  >Initiation a l'equitation pour les debutants</span
+                >
+              </li>
+              <li class="flex items-start text-[#5a5652]">
+                <span
+                  class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
+                ></span>
+                <span class="text-sm md:text-base"
+                  >Decouverte de la faune et de la flore locales</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <hr class="w-[50%] border-[#231b15] border-0 border-t-4 mx-auto" />
+
+      <!-- section "Espace Bien-Etre & Spa"  -->
+
+      <section
+        class="bg-[#f8f5f0] py-12 px-6 md:py-20"
+        aria-labelledby="spa-titre"
+      >
+        <div
+          class="max-w-7xl mx-auto flex flex-col md:flex-row-reverse items-stretch gap-10 lg:gap-16"
         >
-          Des activités pensées pour vous ressourcer
-        </h2>
+          <div class="w-full md:w-1/2 md:order-1">
+            <img
+              src="./assets/img/produits-services/Article_Link.png"
+              alt="Espace Bien-Etre & Spa"
+              class="w-full h-full object-cover rounded-[2rem] shadow-sm"
+            />
+          </div>
 
-        <p
-          class="text-[#5a5652] text-base md:text-lg leading-relaxed max-w-3xl mx-auto"
+          <div class="w-full md:w-1/2 flex flex-col justify-center md:order-2">
+            <p
+              class="text-[#2d5a43] uppercase tracking-[0.25em] text-xs font-bold mb-4"
+            >
+              Relaxation
+            </p>
+
+            <div class="mb-8">
+              <h2
+                id="spa-titre"
+                class="text-[#2a2622] text-4xl md:text-5xl font-serif font-bold mb-3 leading-tight"
+              >
+                Espace Bien-Être & Spa
+              </h2>
+              <div class="h-[3px] w-20 bg-[#ce7d6a]"></div>
+            </div>
+
+            <p
+              class="text-[#5a5652] text-base md:text-lg leading-relaxed mb-10"
+            >
+              Offrez-vous un moment de detente absolue dans notre espace spa.
+              Apres une journee d'exploration, plongez dans un univers de
+              serenite ou chaque soin est pense pour apaiser le corps et
+              l'esprit. L'air iode et l'ambiance feutree completent cette
+              parenthese de bien-etre.
+            </p>
+
+            <ul class="space-y-5">
+              <li class="flex items-start text-[#5a5652]">
+                <span
+                  class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
+                ></span>
+                <span class="text-sm md:text-base"
+                  >Sauna et hammam face a la mer</span
+                >
+              </li>
+              <li class="flex items-start text-[#5a5652]">
+                <span
+                  class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
+                ></span>
+                <span class="text-sm md:text-base"
+                  >Soins du corps aux ingredients marins</span
+                >
+              </li>
+              <li class="flex items-start text-[#5a5652]">
+                <span
+                  class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
+                ></span>
+                <span class="text-sm md:text-base"
+                  >Bain bouillonnant exterieur chauffe</span
+                >
+              </li>
+              <li class="flex items-start text-[#5a5652]">
+                <span
+                  class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
+                ></span>
+                <span class="text-sm md:text-base"
+                  >Espace de relaxation avec tisanes locales</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <hr class="w-[50%] border-[#231b15] border-0 border-t-4 mx-auto" />
+
+      <!-- sectio "Randonnee Cotiere"  -->
+
+      <section
+        class="bg-[#f8f5f0] py-12 px-6 md:py-20"
+        aria-labelledby="rando-titre"
+      >
+        <div
+          class="max-w-7xl mx-auto flex flex-col md:flex-row items-stretch gap-10 lg:gap-16"
         >
-          Entre l'océan et la campagne, nos gîtes offrent un cadre privilégié
-          pour profiter d'activités variées. Que vous soyez en quête d'aventure,
-          de détente ou de moments chaleureux en famille, chaque journée réserve
-          son lot de découvertes.
-        </p>
-      </div>
-    </section>
-
-    <hr />
-
-    <!-- section "Balade a Poney"  -->
-    <section class="bg-[#f8f5f0] py-12 px-6 md:py-20">
-      <div
-        class="max-w-7xl mx-auto flex flex-col md:flex-row items-stretch gap-10 lg:gap-16"
-      >
-        <div class="w-full md:w-1/2">
-          <img
-            src="./assets/img/produits-services/Background.png"
-            alt="Balade a Poney"
-            class="w-full h-full object-cover rounded-[2rem] shadow-sm"
-          />
-        </div>
-
-        <div class="w-full md:w-1/2 flex flex-col justify-center">
-          <p
-            class="text-[#2d5a43] uppercase tracking-[0.25em] text-xs font-bold mb-4"
-          >
-            Decouverte
-          </p>
-
-          <div class="mb-8">
-            <h2
-              class="text-[#2a2622] text-4xl md:text-5xl font-serif font-bold mb-3 leading-tight"
-            >
-              Balade a Poney
-            </h2>
-            <div class="h-[3px] w-20 bg-[#ce7d6a]"></div>
+          <div class="w-full md:w-1/2">
+            <img
+              src="assets/img/produits-services/Background_1.png"
+              alt="Randonnee Cotiere"
+              class="w-full h-full object-cover rounded-[2rem] shadow-sm"
+            />
           </div>
 
-          <p class="text-[#5a5652] text-base md:text-lg leading-relaxed mb-10">
-            Partez a la decouverte des sentiers du littoral a dos de poney, une
-            experience douce et enchantee pour petits et grands. Nos poneys,
-            calmes et habitues aux promeneurs, vous guideront le long des dunes
-            et des chemins cotiers, offrant une perspective unique sur les
-            paesaggi marins.
-          </p>
-
-          <ul class="space-y-5">
-            <li class="flex items-start text-[#5a5652]">
-              <span
-                class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
-              ></span>
-              <span class="text-sm md:text-base"
-                >Accessible des 4 ans, accompagne par un moniteur</span
-              >
-            </li>
-            <li class="flex items-start text-[#5a5652]">
-              <span
-                class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
-              ></span>
-              <span class="text-sm md:text-base"
-                >Parcours de 30 min a 1h le long des sentiers cotiers</span
-              >
-            </li>
-            <li class="flex items-start text-[#5a5652]">
-              <span
-                class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
-              ></span>
-              <span class="text-sm md:text-base"
-                >Initiation a l'equitation pour les debutants</span
-              >
-            </li>
-            <li class="flex items-start text-[#5a5652]">
-              <span
-                class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
-              ></span>
-              <span class="text-sm md:text-base"
-                >Decouverte de la faune et de la flore locales</span
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <hr />
-
-    <!-- section "Espace Bien-Etre & Spa"  -->
-
-    <section class="bg-[#f8f5f0] py-12 px-6 md:py-20">
-      <div
-        class="max-w-7xl mx-auto flex flex-col md:flex-row-reverse items-stretch gap-10 lg:gap-16"
-      >
-        <div class="w-full md:w-1/2 md:order-1">
-          <img
-            src="./assets/img/produits-services/Article_Link.png"
-            alt="Espace Bien-Etre & Spa"
-            class="w-full h-full object-cover rounded-[2rem] shadow-sm"
-          />
-        </div>
-
-        <div class="w-full md:w-1/2 flex flex-col justify-center md:order-2">
-          <p
-            class="text-[#2d5a43] uppercase tracking-[0.25em] text-xs font-bold mb-4"
-          >
-            Relaxation
-          </p>
-
-          <div class="mb-8">
-            <h2
-              class="text-[#2a2622] text-4xl md:text-5xl font-serif font-bold mb-3 leading-tight"
+          <div class="w-full md:w-1/2 flex flex-col justify-center">
+            <p
+              class="text-[#2d5a43] uppercase tracking-[0.25em] text-xs font-bold mb-4"
             >
-              Espace Bien-Etre & Spa
-            </h2>
-            <div class="h-[3px] w-20 bg-[#ce7d6a]"></div>
+              Aventure
+            </p>
+
+            <div class="mb-8">
+              <h2
+                id="rando-titre"
+                class="text-[#2a2622] text-4xl md:text-5xl font-serif font-bold mb-3 leading-tight"
+              >
+                Randonnée Côtière
+              </h2>
+              <div class="h-[3px] w-20 bg-[#ce7d6a]"></div>
+            </div>
+
+            <p
+              class="text-[#5a5652] text-base md:text-lg leading-relaxed mb-10"
+            >
+              Explorez les plus beaux sentiers du littoral, entre falaises
+              spectaculaires et criques cachees. Nos itineraires balisees vous
+              menent a la rencontre de panoramas a couper le souffle, de la
+              faune marine et de la flore sauvage qui fait la richesse de notre
+              region.
+            </p>
+
+            <ul class="space-y-5">
+              <li class="flex items-start text-[#5a5652]">
+                <span
+                  class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
+                ></span>
+                <span class="text-sm md:text-base"
+                  >Plusieurs parcours de 2 a 15 km de difficulte variee</span
+                >
+              </li>
+              <li class="flex items-start text-[#5a5652]">
+                <span
+                  class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
+                ></span>
+                <span class="text-sm md:text-base"
+                  >Cartes et guides des sentiers fournis</span
+                >
+              </li>
+              <li class="flex items-start text-[#5a5652]">
+                <span
+                  class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
+                ></span>
+                <span class="text-sm md:text-base"
+                  >Points de vue panoramiques sur l'ocean</span
+                >
+              </li>
+              <li class="flex items-start text-[#5a5652]">
+                <span
+                  class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
+                ></span>
+                <span class="text-sm md:text-base"
+                  >Observation des oiseaux marins et de la flore locale</span
+                >
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <hr class="w-[50%] border-[#231b15] border-0 border-t-4 mx-auto" />
+
+      <!-- section "Soirées au Coin du Feu" -->
+
+      <section
+        class="bg-[#f8f5f0] py-12 px-6 md:py-20"
+        aria-labelledby="feu-titre"
+      >
+        <div
+          class="max-w-7xl mx-auto flex flex-col md:flex-row-reverse items-stretch gap-10 lg:gap-16"
+        >
+          <div class="w-full md:w-1/2">
+            <img
+              src="assets/img/produits-services/Background_2.png"
+              alt="Soirées au Coin du Feu"
+              class="w-full h-full object-cover rounded-[2rem] shadow-sm"
+            />
           </div>
 
-          <p class="text-[#5a5652] text-base md:text-lg leading-relaxed mb-10">
-            Offrez-vous un moment de detente absolue dans notre espace spa.
-            Apres une journee d'exploration, plongez dans un univers de serenite
-            ou chaque soin est pense pour apaiser le corps et l'esprit. L'air
-            iode et l'ambiance feutree completent cette parenthese de bien-etre.
-          </p>
-
-          <ul class="space-y-5">
-            <li class="flex items-start text-[#5a5652]">
-              <span
-                class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
-              ></span>
-              <span class="text-sm md:text-base"
-                >Sauna et hammam face a la mer</span
-              >
-            </li>
-            <li class="flex items-start text-[#5a5652]">
-              <span
-                class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
-              ></span>
-              <span class="text-sm md:text-base"
-                >Soins du corps aux ingredients marins</span
-              >
-            </li>
-            <li class="flex items-start text-[#5a5652]">
-              <span
-                class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
-              ></span>
-              <span class="text-sm md:text-base"
-                >Bain bouillonnant exterieur chauffe</span
-              >
-            </li>
-            <li class="flex items-start text-[#5a5652]">
-              <span
-                class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
-              ></span>
-              <span class="text-sm md:text-base"
-                >Espace de relaxation avec tisanes locales</span
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-
-    <hr />
-    <!-- sectio "Randonnee Cotiere"  -->
-
-    <section class="bg-[#f8f5f0] py-12 px-6 md:py-20">
-      <div
-        class="max-w-7xl mx-auto flex flex-col md:flex-row items-stretch gap-10 lg:gap-16"
-      >
-        <div class="w-full md:w-1/2">
-          <img
-            src="assets/img/produits-services/Background_1.png"
-            alt="Randonnee Cotiere"
-            class="w-full h-full object-cover rounded-[2rem] shadow-sm"
-          />
-        </div>
-
-        <div class="w-full md:w-1/2 flex flex-col justify-center">
-          <p
-            class="text-[#2d5a43] uppercase tracking-[0.25em] text-xs font-bold mb-4"
-          >
-            Aventure
-          </p>
-
-          <div class="mb-8">
-            <h2
-              class="text-[#2a2622] text-4xl md:text-5xl font-serif font-bold mb-3 leading-tight"
+          <div class="w-full md:w-1/2 flex flex-col justify-center">
+            <p
+              class="text-[#2d5a43] uppercase tracking-[0.25em] text-xs font-bold mb-4"
             >
-              Randonnee Cotiere
-            </h2>
-            <div class="h-[3px] w-20 bg-[#ce7d6a]"></div>
-          </div>
+              Convivialite
+            </p>
 
-          <p class="text-[#5a5652] text-base md:text-lg leading-relaxed mb-10">
-            Explorez les plus beaux sentiers du littoral, entre falaises
-            spectaculaires et criques cachees. Nos itineraires balisees vous
-            menent a la rencontre de panoramas a couper le souffle, de la faune
-            marine et de la flore sauvage qui fait la richesse de notre region.
-          </p>
-
-          <ul class="space-y-5">
-            <li class="flex items-start text-[#5a5652]">
-              <span
-                class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
-              ></span>
-              <span class="text-sm md:text-base"
-                >Plusieurs parcours de 2 a 15 km de difficulte variee</span
+            <div class="mb-8">
+              <h2
+                id="feu-titre"
+                class="text-[#2a2622] text-4xl md:text-5xl font-serif font-bold mb-3 leading-tight"
               >
-            </li>
-            <li class="flex items-start text-[#5a5652]">
-              <span
-                class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
-              ></span>
-              <span class="text-sm md:text-base"
-                >Cartes et guides des sentiers fournis</span
-              >
-            </li>
-            <li class="flex items-start text-[#5a5652]">
-              <span
-                class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
-              ></span>
-              <span class="text-sm md:text-base"
-                >Points de vue panoramiques sur l'ocean</span
-              >
-            </li>
-            <li class="flex items-start text-[#5a5652]">
-              <span
-                class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
-              ></span>
-              <span class="text-sm md:text-base"
-                >Observation des oiseaux marins et de la flore locale</span
-              >
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
+                Soirées au Coin du Feu
+              </h2>
+              <div class="h-[3px] w-20 bg-[#ce7d6a]"></div>
+            </div>
 
-    <hr />
-
-    <!-- section "Soirées au Coin du Feu" -->
-
-    <section class="bg-[#f8f5f0] py-12 px-6 md:py-20">
-      <div
-        class="max-w-7xl mx-auto flex flex-col md:flex-row-reverse items-stretch gap-10 lg:gap-16"
-      >
-        <div class="w-full md:w-1/2">
-          <img
-            src="assets/img/produits-services/Background_2.png"
-            alt="Soirées au Coin du Feu"
-            class="w-full h-full object-cover rounded-[2rem] shadow-sm"
-          />
-        </div>
-
-        <div class="w-full md:w-1/2 flex flex-col justify-center">
-          <p
-            class="text-[#2d5a43] uppercase tracking-[0.25em] text-xs font-bold mb-4"
-          >
-            Convivialite
-          </p>
-
-          <div class="mb-8">
-            <h2
-              class="text-[#2a2622] text-4xl md:text-5xl font-serif font-bold mb-3 leading-tight"
+            <p
+              class="text-[#5a5652] text-base md:text-lg leading-relaxed mb-10"
             >
-              Soirees au Coin du Feu
-            </h2>
-            <div class="h-[3px] w-20 bg-[#ce7d6a]"></div>
+              Quand le soleil se couche sur l'horizon, retrouvez-vous autour du
+              feu pour des moments de partage authentiques. C'est l'occasion de
+              se retrouver entre amis ou en famille, de raconter les aventures
+              de la journee et de creer des souvenirs precieux dans une
+              atmosphere chaleureuse et intime.
+            </p>
+
+            <ul class="space-y-5">
+              <li class="flex items-start text-[#5a5652]">
+                <span
+                  class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
+                ></span>
+                <span class="text-sm md:text-base"
+                  >Cheminee en pierre dans le salon commun</span
+                >
+              </li>
+              <li class="flex items-start text-[#5a5652]">
+                <span
+                  class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
+                ></span>
+                <span class="text-sm md:text-base"
+                  >Degustation de vins et produits du terroir</span
+                >
+              </li>
+              <li class="flex items-start text-[#5a5652]">
+                <span
+                  class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
+                ></span>
+                <span class="text-sm md:text-base"
+                  >Jeux de societe et bibliotheque a disposition</span
+                >
+              </li>
+              <li class="flex items-start text-[#5a5652]">
+                <span
+                  class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
+                ></span>
+                <span class="text-sm md:text-base"
+                  >Soirees contes et musique en saison estivale</span
+                >
+              </li>
+            </ul>
           </div>
-
-          <p class="text-[#5a5652] text-base md:text-lg leading-relaxed mb-10">
-            Quand le soleil se couche sur l'horizon, retrouvez-vous autour du
-            feu pour des moments de partage authentiques. C'est l'occasion de se
-            retrouver entre amis ou en famille, de raconter les aventures de la
-            journee et de creer des souvenirs precieux dans une atmosphere
-            chaleureuse et intime.
-          </p>
-
-          <ul class="space-y-5">
-            <li class="flex items-start text-[#5a5652]">
-              <span
-                class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
-              ></span>
-              <span class="text-sm md:text-base"
-                >Cheminee en pierre dans le salon commun</span
-              >
-            </li>
-            <li class="flex items-start text-[#5a5652]">
-              <span
-                class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
-              ></span>
-              <span class="text-sm md:text-base"
-                >Degustation de vins et produits du terroir</span
-              >
-            </li>
-            <li class="flex items-start text-[#5a5652]">
-              <span
-                class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
-              ></span>
-              <span class="text-sm md:text-base"
-                >Jeux de societe et bibliotheque a disposition</span
-              >
-            </li>
-            <li class="flex items-start text-[#5a5652]">
-              <span
-                class="w-2.5 h-2.5 bg-[#2d5a43] rounded-full mt-1.5 mr-4 shrink-0"
-              ></span>
-              <span class="text-sm md:text-base"
-                >Soirees contes et musique en saison estivale</span
-              >
-            </li>
-          </ul>
         </div>
-      </div>
-    </section>
+      </section>
+    </main>
     <!-- Pied de page -->
     <footer
       class="bg-[#231b15] text-[#d1ccc0] pt-16 pb-8 px-6 md:px-12 lg:px-24"
@@ -433,47 +469,40 @@
             </h3>
             <ul class="space-y-3 text-[#a8a296]">
               <li>
-                <a href="#" class="hover:text-white transition">Accueil</a>
+                <a href="./index.html" class="hover:text-white transition">Accueil</a>
               </li>
               <li>
-                <a href="#" class="hover:text-white transition">Nos Gites</a>
+                <a href="./produits-services-html" class="hover:text-white transition">Produits &amp; services</a>
               </li>
               <li>
-                <a href="#" class="hover:text-white transition">Activités</a>
+                <a href="./contact.html" class="hover:text-white transition">Contact</a>
               </li>
             </ul>
           </div>
         </div>
 
-        <div class="w-[400px] h-[350px]">
-          <iframe
-            src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d23133.160515824376!2d6.9887019859127095!3d43.5514400968136!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1zICAgIDxsaT40LTYgUnVlIEbDqWxpeCBGYXVyZSA8L2xpPiAgICAgICAgICAgPGxpPjA2NDAwIENhbm5lcywgRnJhbmNlPC9saT4!5e0!3m2!1sfr!2sfr!4v1772442425776!5m2!1sfr!2sfr"
-            width="600"
-            height="450"
-            style="border: 0"
-            allowfullscreen=""
-            loading="lazy"
-            referrerpolicy="no-referrer-when-downgrade"
-            class="w-full h-full"
-          ></iframe>
-        </div>
-
         <div
           class="border-t border-[#3d342c] pt-8 flex flex-col md:flex-row justify-between items-center"
         >
-          <p class="text-[#7a7267] text-sm mb-4 md:mb-0">
+          <p class="text-[#ffffff] text-sm mb-4 md:mb-0">
             Les Gites du Littoral. Tous droits réservés.
           </p>
 
           <div class="flex items-center space-x-6">
-            <a href="#" class="text-[#0F776C] hover:opacity-85 transition">
+            <a
+              href="facebook.com"
+              class="text-[#ffffff] hover:opacity-85 transition"
+            >
               <svg class="w-6 h-6" fill="currentColor" viewBox="0 0 24 24">
                 <path
                   d="M9 8H6v4h3v12h5V12h3.642l.358-4H14V5.779c0-.822.112-1.13 1.112-1.13H18V.2h-4.404C10.42.2 9 1.525 9 3.88V8z"
                 />
               </svg>
             </a>
-            <a href="#" class="text-[#0F776C] hover:opacity-85 transition">
+            <a
+              href="instagram.com"
+              class="text-[#ffffff] hover:opacity-85 transition"
+            >
               <svg
                 class="w-6 h-6"
                 fill="none"
