@@ -215,6 +215,12 @@
   .aspect-video {
     aspect-ratio: var(--aspect-video);
   }
+  .h-125 {
+    height: calc(var(--spacing) * 125);
+  }
+  .h-1245 {
+    height: calc(var(--spacing) * 1245);
+  }
   .h-\[500px\] {
     height: 500px;
   }
