@@ -7,11 +7,8 @@
       "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
     --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
       "Courier New", monospace;
-    --color-gray-500: oklch(55.1% 0.027 264.364);
-    --color-black: #000;
     --color-white: #fff;
     --spacing: 0.25rem;
-    --container-2xl: 42rem;
     --text-sm: 0.875rem;
     --text-sm--line-height: calc(1.25 / 0.875);
     --text-base: 1rem;
@@ -188,9 +185,6 @@
   .absolute {
     position: absolute;
   }
-  .fixed {
-    position: fixed;
-  }
   .relative {
     position: relative;
   }
@@ -199,9 +193,6 @@
   }
   .bottom-3 {
     bottom: calc(var(--spacing) * 3);
-  }
-  .left-1 {
-    left: calc(var(--spacing) * 1);
   }
   .left-3 {
     left: calc(var(--spacing) * 3);
@@ -224,32 +215,8 @@
   .aspect-video {
     aspect-ratio: var(--aspect-video);
   }
-  .h-100 {
-    height: calc(var(--spacing) * 100);
-  }
-  .h-\[00\] {
-    height: 00;
-  }
-  .h-\[300\] {
-    height: 300;
-  }
-  .h-\[300px\] {
-    height: 300px;
-  }
-  .h-\[400px\] {
-    height: 400px;
-  }
-  .h-\[450px\] {
-    height: 450px;
-  }
-  .h-\[500\] {
-    height: 500;
-  }
   .h-\[500px\] {
     height: 500px;
-  }
-  .h-\[600\] {
-    height: 600;
   }
   .h-full {
     height: 100%;
@@ -315,29 +282,11 @@
   .bg-\[\#D2C6B5\] {
     background-color: #D2C6B5;
   }
-  .bg-\[url\(\'\.\/assets\/img\/Hero-baneer\.webp\'\)\] {
-    background-image: url('./assets/img/Hero-baneer.webp');
-  }
-  .bg-cover {
-    background-size: cover;
-  }
-  .bg-center {
-    background-position: center;
-  }
   .object-cover {
     object-fit: cover;
   }
-  .object-bottom {
-    object-position: bottom;
-  }
   .object-center {
     object-position: center;
-  }
-  .object-left {
-    object-position: left;
-  }
-  .object-top {
-    object-position: top;
   }
   .p-1 {
     padding: calc(var(--spacing) * 1);
@@ -387,6 +336,9 @@
   }
   .text-\[\#0F776C\] {
     color: #0F776C;
+  }
+  .text-\[\#063732\] {
+    color: #063732;
   }
   .text-white {
     color: var(--color-white);
@@ -524,13 +476,13 @@
 }
 @font-face {
   font-family: "Manrope";
-  src: url("FONTS/Manrope/static/Manrope-Regular.woff2") format("woff2");
+  src: url("assets/fonts/Manrope/static/Manrope-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: "Inter";
-  src: url("FONTS/Inter/static/Inter_18pt-Regular.woff2") format("woff2");
+  src: url("./assets/fonts/Inter/static/Inter_18pt-Regular.woff2") format("woff2");
   font-weight: normal;
   font-style: normal;
 }

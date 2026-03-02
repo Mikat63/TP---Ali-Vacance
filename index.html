@@ -42,14 +42,14 @@
 
     <link
       rel="preload"
-      href="FONTS/Manrope/static/Manrope-Regular.woff2"
+      href="./assets/fonts/Manrope/static/Manrope-Regular.woff2"
       as="font"
       type="font/woff2"
       crossorigin
     />
     <link
       rel="preload"
-      href="FONTS/Inter/static/Inter_18pt-Regular.woff2"
+      href="./assets/fonts/Inter/static/Inter_18pt-Regular.woff2"
       as="font"
       type="font/woff2"
       crossorigin
@@ -61,10 +61,9 @@
     <!-- HEADER -->
     <header
       class="bg-[#0F776C] flex items-center justify-end text-white font-inter px-6 py-3"
-      role="banner"
     >
       <nav aria-label="Navigation principale">
-        <ul class="flex gap-4" role="list">
+        <ul class="flex gap-4">
           <li>
             <a
               href=""
@@ -88,11 +87,11 @@
     <!-- MAIN -->
     <main class="flex flex-col flex-1" id="main-content">
       <!-- Banniere -->
-      <section class="w-full h-100" aria-label="Banniere principale">
+      <section class="w-full h-[500px]" aria-label="Banniere principale">
         <img
           src="./assets/img/Hero-baneer.webp"
           alt="Vue panoramique du gite Ali Vacance au bord de la mer"
-          class="w-full h-full object-left"
+          class="w-full h-full object-center object-cover"
         />
       </section>
 
@@ -112,10 +111,7 @@
           <h3 class="text-base font-bold text-[#0F1F3D]">Offres speciales</h3>
           <p class="text-sm mt-1">Nos coups de coeur et bonnes affaires</p>
         </div>
-        <ul
-          class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4"
-          role="list"
-        >
+        <ul class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
           <li
             class="rounded-xl aspect-video overflow-hidden focus-within:ring-2 focus-within:ring-[#0F776C]"
           >
@@ -217,7 +213,7 @@
 
         <!-- Chambre Azur -->
         <article aria-labelledby="azur-titre" class="flex flex-col gap-4">
-          <h3 id="azur-titre" class="text-lg font-bold text-[#0F776C]">
+          <h3 id="azur-titre" class="text-lg font-bold text-[#063732]">
             Chambre Azur
           </h3>
           <p class="text-sm">
@@ -318,7 +314,7 @@
 
         <!-- Chambre Lavande -->
         <article aria-labelledby="lavande-titre" class="flex flex-col gap-4">
-          <h3 id="lavande-titre" class="text-lg font-bold text-[#0F776C]">
+          <h3 id="lavande-titre" class="text-lg font-bold text-[#063732]">
             Chambre Lavande
           </h3>
           <p class="text-sm">
@@ -419,7 +415,7 @@
 
         <!-- Chambre Mimosas -->
         <article aria-labelledby="mimosas-titre" class="flex flex-col gap-4">
-          <h3 id="mimosas-titre" class="text-lg font-bold text-[#0F776C]">
+          <h3 id="mimosas-titre" class="text-lg font-bold text-[#063732]">
             Chambre Mimosas
           </h3>
           <p class="text-sm">
@@ -506,7 +502,7 @@
 
         <!-- Chambre Ecume -->
         <article aria-labelledby="ecume-titre" class="flex flex-col gap-4">
-          <h3 id="ecume-titre" class="text-lg font-bold text-[#0F776C]">
+          <h3 id="ecume-titre" class="text-lg font-bold text-[#063732]">
             Chambre Ecume
           </h3>
           <p class="text-sm">
@@ -609,7 +605,6 @@
     <!-- FOOTER -->
     <footer
       class="bg-[#0F776C] flex items-center justify-end text-white font-inter px-6 py-3"
-      role="contentinfo"
     >
       <div class="flex gap-4">
         <a
